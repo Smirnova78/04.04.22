@@ -1,0 +1,15 @@
+﻿<Window x:Class="uhfdub.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:uhfdub"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="80,80,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="560" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="80,140,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="560"/>
+        <Button Content="Авторизоваться" HorizontalAlignment="Left" VerticalAlignment="Top" Width="570" Margin="80,270,0,0" Height="50"/>
+
+    </Grid>
+</Window>
